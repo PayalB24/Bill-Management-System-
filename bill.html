@@ -27,13 +27,15 @@
                 <label for="customer-address">Customer Address</label>
                 <input type="text" id="customer-address" required>
             </div>
-            <div class="form-group">
-                <label for="product-count">Name of the product</label>
-                <input type="number" id="product-count" min="1" max="10" required>
-                <label for="product-count">Number of different Products wanted to buy</label>
-                <input type="number" id="product-count" min="1" max="10" required>
-                <label for="product-count">Number of different Products wanted to buy</label>
-                <input type="number" id="product-count" min="1" max="10" required>
+            <div class="form-group product-info">
+                <input type="text" id="product-count" placeholder="Product's Name" min="1" max="10" required>
+                <input type="number" id="product-count" placeholder="Product's Quantity" min="1" max="10" required>
+                <select name="unit" id="unit">
+                    <option value="unit">Unit</option>
+                    <option value="kg">Kg</option>
+                    <option value="g">G</option>
+                </select>
+                <input type="number" id="product-count" placeholder="Product's Price" min="1" max="10" required>
             </div>
             <div id="products-container"></div>
             <div class="form-group">
