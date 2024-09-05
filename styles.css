@@ -32,6 +32,16 @@ form{
     margin-bottom: 15px;
 }
 
+.product-info{
+    display: flex;
+    gap: 2.5rem;
+}
+
+.product-info select{
+    height: 35px;
+    margin-top: 5px;
+}
+
 label {
     display: block;
     margin-bottom: 5px;
